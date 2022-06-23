@@ -25,13 +25,13 @@ function mostrarResultado(resultado) {
 }
 
 function menu() {
-    let opcion = parseInt(prompt("Seleccione una operación o la letra mayusculas B para salir: \n1. Suma \n2. Resta \n3. Multiplicación \n4. Dividisión"));
+    let opcion = parseInt(prompt("Seleccione una operación o la letra mayusculas B para salir: \n1. Suma \n2. Resta \n3. Multiplicación \n4. Dividisión \n5. Salir"));
     return opcion;
 }
 
 function calculadora() {
     let seleccion = menu();
-    while (seleccion !== "B") {
+    while (seleccion !== 5) {
         let x = parseFloat(prompt("Ingrese el primer número"));
         let y = parseFloat(prompt("Ingrese el segundo número"));
         switch (seleccion) {
