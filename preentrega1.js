@@ -91,6 +91,7 @@ function revisarCarrito() {
     alert("Carrito:\n" + carrito.join("\n") + "\n Total a pagar: $" + total)
 }
 
+// Para saber por consola cuantas camisas vendí:
 function cantidades() {
     const cCamisa = cantidad.filter((cantidad) => cantidad.nombre.includes('Camisa'))
     console.log("Camisas vendidas")
