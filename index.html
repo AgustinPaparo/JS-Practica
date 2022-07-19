@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Probando JS</title>
 </head>
+
 <body>
-    
-    <h1 id="Titulo">JUGANDO con Eventos.</h1>
-    
-    <p>(Deslizar el ratón por el título)</p>
+    <div class="container">
+        <h1 id="Titulo" class="text-center my-5 display-3 "> <strong>Stock de Productos</strong></h1>
+        <div class="row">
+            <div class="col-md-4">
+                <form id="formulario">
+                    <div class="mb-3 text-center">
+                        <label class="form-label"><strong>Nombre</strong></label>
+                        <input type="text" class="form-control" id="nombreProducto">
+                    </div>
+                    <div class="mb-3 text-center">
+                        <label class="form-label"><strong>Precio</strong></label>
+                        <input type="number" class="form-control" id="precioProducto">
+                    </div>
+                    <div class="mb-3 text-center">
+                        <label class="form-label"><strong>Cantidad</strong></label>
+                        <input type="number" class="form-control" id="cantidadProducto">
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-secondary">Agregar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-8 text-center">
+                <table id="tablaProductos" class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <td>Nombre</td>
+                            <td>Precio</td>
+                            <td>Cantidad</td>
+                        </tr>
+                    </thead>
 
-    <button id="Boton1">Hace CLICK y mira la consola</button>
+                    <tbody>
 
-    <script src="eventos.js"></script>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="preentrega2.js"></script>
 </body>
+
 </html>
