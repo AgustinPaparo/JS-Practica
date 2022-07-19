@@ -78,3 +78,12 @@ function main() {
 }
 
 main();
+
+
+
+// Cosas para hacer:
+// 1- Que se  visualicen los productos y se puedan seleccionar de una lista
+// 2- Que cada producto ya tenga asignado su precio
+// 3- Que se reste la cantidad del stock
+// 4- que se vean en fotos
+// 5- 
