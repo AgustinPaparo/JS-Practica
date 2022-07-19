@@ -38,6 +38,7 @@ function validarForm(event) {
     formulario.reset();
     limpiarTabla();
     agregarTabla();
+    guardarLS();
 }
 
 function agregarTabla(){
@@ -58,9 +59,22 @@ function limpiarTabla() {
     }
 }
 
+function guardarLS() {
+    localStorage.setItem("listaProductos" , JSON.stringify(productos));
+}
+
+function buscarLS(){
+    let stock = localStorage.getItem("listaProductos");
+    if (stock !== null) {
+        productos = JSON.parse(stock);
+    }
+}
+
 function main() {
     iniciarElementos();
     iniciarEventos();
+    buscarLS();
+    agregarTabla();
 }
 
 main();
