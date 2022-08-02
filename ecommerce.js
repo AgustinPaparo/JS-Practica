@@ -3,7 +3,7 @@ class Productos {
         this.id = id;
         this.tipo = tipo;
         this.nombre = nombre;
-        this.foto = foto
+        this.foto = foto;
         this.precio = precio;
     }
 }

@@ -15,47 +15,9 @@
 </head>
 
 <body>
-    <!-- <div class="container">
-        <h1 id="Titulo" class="text-center my-5 display-3 "> <strong>Stock de Productos</strong></h1>
-        <div class="row">
-            <div class="col-md-4">
-                <form id="formulario">
-                    <div class="mb-3 text-center">
-                        <label class="form-label"><strong>Nombre</strong></label>
-                        <input type="text" class="form-control" id="nombreProducto">
-                    </div>
-                    <div class="mb-3 text-center">
-                        <label class="form-label"><strong>Precio</strong></label>
-                        <input type="number" class="form-control" id="precioProducto">
-                    </div>
-                    <div class="mb-3 text-center">
-                        <label class="form-label"><strong>Cantidad</strong></label>
-                        <input type="number" class="form-control" id="cantidadProducto">
-                    </div>
-                    <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-secondary">Agregar</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-8 text-center">
-                <table id="tablaProductos" class="table table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <td>Nombre</td>
-                            <td>Precio</td>
-                            <td>Cantidad</td>
-                        </tr>
-                    </thead>
 
-                    <tbody>
 
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- E-Commerce  -  Venta de Ropa -->
+    <!-- E-Commerce  -  Venta de Ropa
     <div class="container">
         <h1 class="display-3 text-center pt-5">Catalogo de venta:</h1>
         <div class="row">
@@ -69,7 +31,27 @@
         <div class="row">
             <button type="button" class="btn btn-primary btn-lg my-5 col-2 "  id="btn-alert">Pagar</button>
         </div>
+    </div> -->
+
+    <div class="container">
+        <h1 class="text-center my-5">Probando FETCH</h1>
+        <div class="row" id="items"></div>
     </div>
+
+
+    <!-- TAMPLATES -->
+    <template id="template-card">
+        <div class="col-md-4 mb-2">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body text-center">
+                    <h5>Título</h5>
+                    <p>precio</p>
+                    <button class="btn btn-dark">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </template>
 
 <!-- Cdn Bootsrtap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -78,7 +60,7 @@
 <!-- Cdn Sweet alert -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- Conecto con el archivo js -->
-    <script src="ecommerce.js"></script>
+    <script src="fetch.js"></script>
 </body>
 
 </html>

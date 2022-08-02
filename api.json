@@ -1,0 +1,36 @@
+[{
+        "precio": 1000,
+        "id": 1,
+        "nombre": "Gorro",
+        "imagen": "img/gorro.webp"
+    },
+    {
+        "precio": 2000,
+        "id": 2,
+        "nombre": "Remera",
+        "imagen": "img/remerabasica.webp"
+    },
+    {
+        "precio": 3000,
+        "id": 3,
+        "nombre": "Polera",
+        "imagen": "img/remeramlarga.webp"
+    },
+    {
+        "precio": 4000,
+        "id": 4,
+        "nombre": "Sweater",
+        "imagen": "img/sweter.webp"
+    },
+    {
+        "precio": 5000,
+        "id": 5,
+        "nombre": "Buzo",
+        "imagen": "img/buzo.webp"
+    },
+    {
+        "precio": 6000,
+        "id": 6,
+        "nombre": "Campera",
+        "imagen": "img/parka.webp"
+}]
